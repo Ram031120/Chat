@@ -39,7 +39,7 @@ def generate_response(user_input, data_frames):
 # Streamlit UI
 st.title("Merchandising & Production Chatbot")
 
-folder_path = "/Users/anil/Dropbox/My Mac (Anil-MacBook-Air.local)/Desktop/Teck packs "
+folder_path = "/Users/anil/Dropbox/My Mac (Anil-MacBook-Air.local)/Documents/Teck packs"
 
 if st.button("Load Data"):
     data = load_data_from_folder(folder_path)
