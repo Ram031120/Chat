@@ -4,7 +4,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # Load API Key directly
-genai.configure(api_key="AIzaSyB869OB0ddXHJGJ6Obz2_AMYPU8BfmYhfA")  # Replace with your actual Gemini API key
+genai.configure(api_key="")  # Replace with your actual Gemini API key
 
 # Function to read data from files
 def load_data_from_folder(folder_path):
