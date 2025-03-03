@@ -4,7 +4,7 @@ import pandas as pd
 import google.generativeai as genai
 
 # Load API Key directly
-genai.configure(api_key="your_actual_api_key_here")  # Replace with your actual Gemini API key
+genai.configure(api_key="AIzaSyB869OB0ddXHJGJ6Obz2_AMYPU8BfmYhfA")  # Replace with your actual Gemini API key
 
 # Function to read data from files
 def load_data_from_folder(folder_path):
@@ -39,7 +39,7 @@ def generate_response(user_input, data_frames):
 # Streamlit UI
 st.title("Merchandising & Production Chatbot")
 
-folder_path = "/Users/anil/Dropbox/My Mac (Anil-MacBook-Air.local)/Desktop/Teck packs"
+folder_path = "/Users/anil/Dropbox/My Mac (Anil-MacBook-Air.local)/Desktop/Teck packs "
 
 if st.button("Load Data"):
     data = load_data_from_folder(folder_path)
