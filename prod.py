@@ -39,7 +39,7 @@ def generate_response(user_input, data_frames):
 # Streamlit UI
 st.title("Merchandising & Production Chatbot")
 
-folder_path = "/Volumes/Shared/adidas delivery 2024-2025/Teck packs"
+folder_path = " r"/Volumes/Shared/adidas delivery 2024-2025/Teck packs""
 
 if st.button("Load Data"):
     data = load_data_from_folder(folder_path)
